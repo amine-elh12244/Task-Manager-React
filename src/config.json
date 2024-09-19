@@ -1,0 +1,6 @@
+{
+    "Roles": {
+        "Administrateur": 1,
+        "Utilisateur": 2
+    }
+}

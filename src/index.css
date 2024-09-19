@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eff0f3;
+  border-radius: 30px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #21295c;
+  border-radius: 30px;
+}
+.MuiDataGrid-columnHeaderTitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.leaflet-control-zoom,
+.leaflet-bar,
+.leaflet-control {
+    visibility: hidden;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
